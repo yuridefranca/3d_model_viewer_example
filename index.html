@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script type="module"
+                src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+
+        <title>3D Model Viewer Example</title>
+    </head>
+
+    <body class="h-screen">
+        <main class="flex flex-col justify-start items-center space-between w-full h-full">
+            <h1 class="font-bold text-2xl py-5">This is a simple example of 3d model viewer usage</h1>
+            <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+                          src="./assets/models/NeilArmstrong.glb" camera-controls auto-rotate shadow-intensity="1"
+                          class="w-full h-full">
+            </model-viewer>
+        </main>
+    </body>
+
+</html>
